@@ -1,23 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css.css">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Panzió - szobafoglalás</h1>
-    <div class="container">
-        <hr>
-        <p>Érkezés dátuma: <input type="datetime" name="erk" id="erk" value="éééé.hh.nn"></p>
-        <p>Távozás dátuma: <input type="datetime" name="tav" id="tav" value="éééé.hh.nn"></p>
-        <hr>
 
+    <div class="container">
+        <div class="sor">
+            <div class="bal">
+                <p>Érkezés dátuma:</p>
+                <p>Távozás dátuma:</p>
+            </div>
+            <div class="jobb">
+                <input type="datetime" name="erk" id="erk" value="éééé.hh.nn">
+                <input type="datetime" name="tav" id="tav" value="éééé.hh.nn">
+            </div>
+        </div>
+    </div>
+            
+            
+            
+        </div>
+        <div id="szobatipus">
+            <p class="bal">Szoba típusa:</p>
+            <input type="radio" class="jobb">
+            <input type="radio" class="jobb">
+            <input type="radio" class="jobb">
+            <input type="radio" class="jobb">
+        </div>
+        <div>
+            <p class="bal">Vendégek száma:</p>
+            <input type="select" class="jobb" value="2"> fő
+        </div>
+        <div>
+            <p class="bal">Vendégek életkora:</p>
+            <input type="number" class="jobb">
+        </div>
+        <p class="bal">Ellátás:</p>
 
     </div>
 
 
     <script src="./js.js"></script>
 </body>
+
 </html>
