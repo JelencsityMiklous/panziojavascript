@@ -30,10 +30,10 @@
                 <p>Szoba típusa:</p>
             </div>
             <div class="jobb">
-                <input type="radio" class="jobb" name="radio"><label>Egyágyas - 9.000 Ft/éj</label><br>
-                <input type="radio" class="jobb" name="radio"><label>Kétágyas - 15.000 Ft/éj</label><br>
-                <input type="radio" class="jobb" name="radio"><label>Egyágyas 1 pótággyal - 18.000 Ft/éj</label><br>
-                <input type="radio" class="jobb" name="radio"><label>Egyágyas 2 pótággyal - 21.000 Ft/éj</label>
+                <input type="radio" class="jobb" name="radio" id="egyagyas" value="1"><label>Egyágyas - 9.000 Ft/éj</label><br>
+                <input type="radio" class="jobb" name="radio" id="ketagyas" value="2"><label>Kétágyas - 15.000 Ft/éj</label><br>
+                <input type="radio" class="jobb" name="radio" id="egypotagy" value="3"><label>Egyágyas 1 pótággyal - 18.000 Ft/éj</label><br>
+                <input type="radio" class="jobb" name="radio" id="ketpotagy" value="4"><label>Egyágyas 2 pótággyal - 21.000 Ft/éj</label>
             </div>
         </div>
         <div class="sor">
@@ -84,7 +84,7 @@
         </div>
     </div>
 
-    <input type="button" value="Költségkalkuláció">
+    <input type="button" value="Költségkalkuláció" onclick="Szamolas()">
 
 
 
