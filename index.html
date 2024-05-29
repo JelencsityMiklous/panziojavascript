@@ -30,7 +30,7 @@
                 <p>Szoba típusa:</p>
             </div>
             <div class="jobb">
-                <input type="radio" class="jobb" name="radio" id="egyagyas" value="1"><label>Egyágyas - 9.000 Ft/éj</label><br>
+                <input type="radio" class="jobb" name="radio" id="egyagyas" value="1" checked><label>Egyágyas - 9.000 Ft/éj</label><br>
                 <input type="radio" class="jobb" name="radio" id="ketagyas" value="2"><label>Kétágyas - 15.000 Ft/éj</label><br>
                 <input type="radio" class="jobb" name="radio" id="egypotagy" value="3"><label>Egyágyas 1 pótággyal - 18.000 Ft/éj</label><br>
                 <input type="radio" class="jobb" name="radio" id="ketpotagy" value="4"><label>Egyágyas 2 pótággyal - 21.000 Ft/éj</label>
@@ -42,7 +42,7 @@
                 <p>Vendégek életkora:</p>
             </div> 
             <div class="jobb">
-                    <input type="number" value="2">fő<br>
+                    <input type="number" value="2" id="vendegekszama">fő<br>
                     <input type="select">év
                     <input type="select">év
                     <input type="select">év
@@ -56,9 +56,9 @@
         
             </div> 
             <div class="jobb">
-                    <input type="radio" name="radio2"><label>Reggeli - 900 Ft/nap/fő</label><br>
-                    <input type="radio" name="radio2"><label>Félpanzió - 2900 Ft/nap/fő</label><br>
-                    <input type="radio" name="radio2"><label>Teljes panzió - 4900 Ft/nap/fő</label>
+                    <input type="radio" name="radio2" id="reggeli" value="1" checked><label>Reggeli - 900 Ft/nap/fő</label><br>
+                    <input type="radio" name="radio2" id="felpanzio" value="2"><label>Félpanzió - 2900 Ft/nap/fő</label><br>
+                    <input type="radio" name="radio2" id="teljespanzio" value="3"><label>Teljes panzió - 4900 Ft/nap/fő</label>
             </div>
         </div>
         <div class="sor">
@@ -67,10 +67,10 @@
         
             </div> 
             <div class="jobb">
-                    <input type="checkbox"><label>Beltéri medencék - 800 Ft/nap/fő</label><br>
-                    <input type="checkbox"><label>Kültéri medencék - 800 Ft/nap/fő</label><br>
-                    <input type="checkbox"><label>Szauna belépő - 800 Ft/nap/fő</label><br>
-                    <input type="checkbox"><label>Teljes belépő - 2000 Ft/nap/fő</label>
+                    <input type="checkbox" id="belteri"><label>Beltéri medencék - 800 Ft/nap/fő</label><br>
+                    <input type="checkbox" id="kulteri"><label>Kültéri medencék - 800 Ft/nap/fő</label><br>
+                    <input type="checkbox" id="szauna"><label>Szauna belépő - 800 Ft/nap/fő</label><br>
+                    <input type="checkbox" id="teljesbelepo"><label>Teljes belépő - 2000 Ft/nap/fő</label>
             </div>
         </div>
         <div class="sor">
