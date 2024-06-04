@@ -101,4 +101,18 @@ input[type=date]{
     width: 100%;
 }
 
+input[type=radio]{
+    width: 40%;
+}
+input[type=select]{
+    width: 40%;
+}
+input[type=number]{
+    width: 40%;
+}
+input[type=date]{
+    width: 80%;
+    height: 2rem;
+}
+
 }
